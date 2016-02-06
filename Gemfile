@@ -1,17 +1,13 @@
 source 'https://rubygems.org'
 
-gem 'slack-ruby-bot'
+gem 'slack-ruby-bot', github: 'vinhnglx/slack-ruby-bot'
 gem 'puma'
 gem 'sinatra'
 gem 'dotenv'
 gem 'httparty'
+gem 'terminal-table'
 
-group :development, :test do
+group :development do
   gem 'rake'
   gem 'foreman'
-end
-
-group :test do
-  gem 'rspec'
-  gem 'rack-test'
 end

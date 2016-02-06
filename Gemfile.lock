@@ -1,3 +1,14 @@
+GIT
+  remote: git://github.com/vinhnglx/slack-ruby-bot.git
+  revision: d0b7d9edaadec7105f7968c3f2237dda8c503092
+  specs:
+    slack-ruby-bot (0.6.3)
+      activesupport
+      faye-websocket
+      giphy (~> 2.0.2)
+      hashie
+      slack-ruby-client (>= 0.6.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -8,7 +19,6 @@ GEM
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
     addressable (2.4.0)
-    diff-lcs (1.2.5)
     dotenv (2.1.0)
     eventmachine (1.0.9.1)
     faraday (0.9.2)
@@ -46,32 +56,11 @@ GEM
     rack (1.6.4)
     rack-protection (1.5.3)
       rack
-    rack-test (0.6.3)
-      rack (>= 1.0)
     rake (10.5.0)
-    rspec (3.4.0)
-      rspec-core (~> 3.4.0)
-      rspec-expectations (~> 3.4.0)
-      rspec-mocks (~> 3.4.0)
-    rspec-core (3.4.2)
-      rspec-support (~> 3.4.0)
-    rspec-expectations (3.4.0)
-      diff-lcs (>= 1.2.0, < 2.0)
-      rspec-support (~> 3.4.0)
-    rspec-mocks (3.4.1)
-      diff-lcs (>= 1.2.0, < 2.0)
-      rspec-support (~> 3.4.0)
-    rspec-support (3.4.1)
     sinatra (1.4.7)
       rack (~> 1.5)
       rack-protection (~> 1.4)
       tilt (>= 1.3, < 3)
-    slack-ruby-bot (0.6.2)
-      activesupport
-      faye-websocket
-      giphy (~> 2.0.2)
-      hashie
-      slack-ruby-client (>= 0.6.0)
     slack-ruby-client (0.6.0)
       faraday
       faraday_middleware
@@ -79,6 +68,7 @@ GEM
       hashie
       json
       websocket-driver
+    terminal-table (1.5.2)
     thor (0.19.1)
     thread_safe (0.3.5)
     tilt (2.0.2)
@@ -96,11 +86,10 @@ DEPENDENCIES
   foreman
   httparty
   puma
-  rack-test
   rake
-  rspec
   sinatra
-  slack-ruby-bot
+  slack-ruby-bot!
+  terminal-table
 
 BUNDLED WITH
    1.11.2
