@@ -20,6 +20,12 @@ A simple slack-bot for [Weer](https://github.com/vinhnglx/weer).
 
 ## Usage
 
+1. Invite your bot to channel: `/invite <bot-name>`
+
+2. `weather in <your-city>` to know the weather in your city
+
+  ![slack](https://cloud.githubusercontent.com/assets/1997137/12868113/5cad5fbe-cd32-11e5-8bcf-83792b4876e1.png)
+
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/vinhnglx/slack-weer-bot. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
