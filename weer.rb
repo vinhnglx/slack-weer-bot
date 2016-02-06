@@ -1,3 +1,5 @@
 require 'slack-ruby-bot'
+require 'date'
+require 'weer/lib/wetter'
 require 'weer/cli/weather'
 require 'weer/bot'
